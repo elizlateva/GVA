@@ -1,25 +1,144 @@
-@media(min-width:769px) {
-    /* table {
-    line-height: 1.25;
-    border: 1px solid #ccc;
-    border-collapse: collapse;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    table-layout: fixed;
-} */
-    /* table caption {
-    font-size: 1.5em;
-    margin: .5em 0 .75em;
-} */
-    table th,
-    table td {
-        /* padding: .625em;
-    text-align: center; */
+@media(min-width:768px) {
+    /* header {
+        background: #313131;
+    }
+    .header-inner {
+        margin: 0;
+    }
+    .menu ul.active {
+        display: block;
+    }
+    .menu ul li {
+        display: inline-block;
+        padding: 0 10px;
+    }
+    .menu li a {
+        color: #fff;
+    }
+    .menu ul {
+        border: none;
+    }
+    .toggle-nav {
+        display: none;
+    }
+    .select-lang {
+        display: block;
+    }
+    .menu {
+        display: inline-block;
+    } */
+    .section-one-footer-center p {
+        font-size: 48px;
+    }
+    .section-one-footer-center {
+        width: 450px;
+    }
+    /* SCREEN-TWO  */
+    .text {
+        font-size: 16px;
+    }
+    /* SCREEN-THREE */
+    h1 {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 26px;
+    }
+    .content div {
+        width: 50%;
+        display: inline-block;
+    }
+    .content div:nth-child(even) {
+        float: right;
+        overflow: hidden;
+    }
+    .content div p {
+        width: 70%;
+        margin: 0 auto;
+        ;
+    }
+    .content:after {
+        clear: both;
+        display: block;
+        content: "";
+    }
+    /* SCREEN-FOUR */
+    table {
+        border: 1px solid #bf1e2d;
+        font-size: 16px;
+        color: #404040;
+    }
+    table tr {
+        display: table-row;
+        border: none;
     }
     table th {
-        /* font-size: .85em;
-    letter-spacing: .1em;
-    text-transform: uppercase; */
+        text-align: left;
+        text-transform: uppercase;
+        background: #bf1e2d;
+    }
+    table td:before {
+        display: none;
+    }
+    table td {
+        display: table-cell;
+        text-align: left;
+        padding-right: 0;
+        padding-left: 0;
+    }
+    table thead {
+        display: table-header-group;
+        color: #fff;
+        font-size: 18px;
+    }
+    td.title {
+        background: none;
+        text-align: left;
+        text-indent: 10px;
+    }
+    table tr:nth-child(2n+1) {
+        background: #f8e6e8;
+    }
+    table tr:hover {
+        font-weight: bold;
+        color: #000;
+    }
+    /* SCREEN-FIVE */
+    h3 {
+        font-size: 24px;
+    }
+    .item-center div {
+        width: 30%;
+        display: inline-block;
+        margin: 10px;
+    }
+    .item-center div {
+        float: left;
+    }
+    .item-center:after {
+        clear: both;
+        display: block;
+        content: "";
+    }
+    /* FOOTER */
+    .contact {
+        display: inline-block;
+    }
+    /* .footer-inner div {
+        display: inline-block;
+    } */
+    .clients,
+    .payments {
+        float: right;
+        clear: both;
+    }
+    .cr-text,
+    .social {
+        clear: both;
+    }
+    footer::after {
+        clear: both;
+        display: block;
+        content: "";
     }
 }
