@@ -1,0 +1,179 @@
+@media(min-width:1024px) {
+    nav {
+        background: #333;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        height: 106px;
+        z-index: 111;
+    }
+    .nav-inner {
+        width: 980px;
+        margin: 0 auto;
+    }
+    .menu ul.active {
+        display: block;
+        margin-top: -50px;
+        text-align: right;
+    }
+    .menu ul li {
+        display: inline-block;
+        padding: 0 15px;
+        font-size: 17px;
+    }
+    .menu li a {
+        color: #fff;
+        padding: 10px 10px;
+    }
+    .menu li a:hover {
+        border-bottom: 1px solid #fff;
+    }
+    .toggle-nav {
+        display: none;
+    }
+    .main-inner {
+        width: 980px;
+    }
+    .reservation-form {
+        height: 300px;
+        width: 600px;
+        top: 0;
+    }
+    .reservation-form form {
+        display: inline-block;
+    }
+    .reservation-form .label-center {
+        margin-left: 6%;
+    }
+    .reservation-form-center {
+        width: 540px;
+        margin: 10px auto;
+    }
+    .select-wrapper select {
+        margin-left: 6%;
+    }
+    section header {
+        display: inline-block;
+    }
+    /* SCREEN-TWO */
+    .main-content-inner {
+        width: 980px;
+    }
+    .text {
+        padding: 100px 0;
+    }
+    /* SCREEN-THREE */
+    .content {
+        padding: 260px 0 360px;
+    }
+    .content div {
+        width: 24%;
+        padding: 0;
+    }
+    .content div,
+    .content div:nth-child(even) {
+        float: left;
+        overflow: hidden;
+    }
+    .screen-four {
+        border-bottom: none;
+    }
+    .screen-four .main-content {
+        padding: 200px 0 400px;
+    }
+    .screen-five .main-content {
+        padding: 130px 0;
+    }
+    .footer-inner {
+        width: 980px;
+    }
+    /* SCREEN-FOUR */
+    table {
+        border: 1px solid #bf1e2d;
+        font-size: 16px;
+        color: #404040;
+    }
+    table tr {
+        display: table-row;
+        border: none;
+    }
+    table th {
+        text-align: left;
+        text-transform: uppercase;
+        background: #bf1e2d;
+    }
+    table td:before {
+        display: none;
+    }
+    table td {
+        display: table-cell;
+        text-align: left;
+        padding-right: 0;
+        padding-left: 0;
+    }
+    table thead {
+        display: table-header-group;
+        color: #fff;
+        font-size: 18px;
+    }
+    td.title {
+        background: none;
+        text-align: left;
+        text-indent: 10px;
+    }
+    table tr:nth-child(2n+1) {
+        background: #f8e6e8;
+    }
+    tbody td:hover {
+        font-weight: bold;
+        color: #000;
+    }
+    /* SCREEN-FIVE */
+    .screen-five .main-content {
+        padding: 200px 0 0;
+    }
+    h3 {
+        font-size: 23px;
+    }
+    .item-center div {
+        width: 30%;
+        display: inline-block;
+        margin: 10px;
+    }
+    .item-center div {
+        float: left;
+    }
+    .item-center:after {
+        clear: both;
+        display: block;
+        content: "";
+    }
+    /* FOOTER */
+    .contact {
+        display: inline-block;
+    }
+    .clients,
+    .payments {
+        float: none;
+        display: inline-block;
+    }
+    .image-center {
+        float: right;
+    }
+    .contact {
+        vertical-align: top;
+    }
+    .cr-text,
+    .social {
+        font-size: 12px;
+        display: inline-block;
+        padding-top: 30px;
+    }
+    .cr-text {
+        text-align: left;
+    }
+    .social {
+        margin-left: 132px;
+    }
+}
