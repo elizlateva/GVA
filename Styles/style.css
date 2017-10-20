@@ -50,10 +50,6 @@ nav {
     display: inline-block;
 }
 
-.menu:active {
-    background-color: #333;
-}
-
 .menu li {
     padding: 10px 0;
     font-size: 15px;
