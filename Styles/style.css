@@ -3,9 +3,7 @@
     padding: 0;
     outline: none;
     -moz-appearance: none;
-    /* Firefox */
     -webkit-appearance: none;
-    /* Safari and Chrome */
     appearance: none;
     text-decoration: none;
     list-style-type: none;
@@ -35,6 +33,7 @@ nav {
     left: 0;
     padding: 10px 0;
     z-index: 111;
+    height: 106px;
 }
 
 .nav-inner {

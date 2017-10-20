@@ -7,14 +7,13 @@ jQuery(document).ready(function() {
 });
 
 $(function() {
-
-    $("section").css({
-        "height": $("section").height()
-    });
-
+    // $("section").css({
+    //     "height": $("section").height()
+    // });
     $.scrollify({
         section: "section",
-        sectionName: "",
+        sectionName: false,
+        interstitialSection: "nav,footer",
         offset: -126
     });
 });
