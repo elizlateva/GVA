@@ -6,6 +6,13 @@ jQuery(document).ready(function() {
     });
 });
 
+
+$(document).ready(function() {
+    if ($(window).width() < 768) {
+        $('.menu').css({ "background": "#333" });
+    } else {}
+});
+
 $(function() {
 
     $.scrollify({
