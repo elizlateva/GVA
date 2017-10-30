@@ -25,7 +25,7 @@ section {
 
 /* HEADER */
 
-nav {
+header {
     background: rgba(0, 0, 0, 0.55);
     position: fixed;
     top: 0;
@@ -36,7 +36,7 @@ nav {
     width: 100%;
 }
 
-.nav-inner {
+.header-inner {
     width: 90%;
     margin: 0 auto;
 }
@@ -50,17 +50,17 @@ nav {
     display: inline-block;
 }
 
-.menu li {
+nav.menu li {
     padding: 10px 0;
     font-size: 15px;
 }
 
-.menu li a {
+nav.menu li a {
     color: #fff;
     padding: 10px 0;
 }
 
-.menu li a:hover {
+nav.menu li a:hover {
     border-bottom: 1px solid #fff;
 }
 

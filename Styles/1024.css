@@ -1,23 +1,23 @@
 @media(min-width:1024px) {
-    .nav-inner {
+    .header-inner {
         width: 980px;
         margin: 0 auto;
     }
-    .menu ul.active {
+    nav.menu ul.active {
         display: block;
         margin-top: -50px;
         text-align: right;
     }
-    .menu ul li {
+    nav.menu ul li {
         display: inline-block;
         padding: 0 15px;
         font-size: 17px;
     }
-    .menu li a {
+    nav.menu li a {
         color: #fff;
         padding: 10px 10px;
     }
-    .menu li a:hover {
+    nav.menu li a:hover {
         border-bottom: 1px solid #fff;
     }
     .toggle-nav {

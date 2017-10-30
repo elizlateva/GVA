@@ -11,16 +11,15 @@
     <link rel="stylesheet" href=" https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
     <title>GVA</title>
 </head>
 
 <body>
-    <nav>
-        <div class="nav-inner">
-            <div class="logo">
-                <a href="#" alt=""><img src="Images/logo.png"></a>
-            </div>
-            <div class="menu">
+    <header>
+        <div class="header-inner">
+            <a href="#" class="logo" alt=""><img src="Images/logo.png"></a>
+            <nav class="menu">
                 <ul class="active">
                     <li>
                         <a href="# ">Accueil  </a>
@@ -51,23 +50,24 @@
                     </li>
                 </ul>
                 <a class="toggle-nav"><i class=" fa fa-bars fa-2x " aria-hidden="true "></i></a>
-            </div>
+            </nav>
         </div>
-    </nav>
-    <section class="screen-one">
-        <div class="main ">
-            <div class="main-inner ">
-                <div class="reservation-form ">
-                    <div class="reservation-form-center">
-                        <form>
-                            <label>Date de départ</label>
-                            <input type="date " name="calendar ">
-                        </form>
-                        <form>
-                            <label class="label-center">Heure de rendez-vous</label>
-                            <div class="select-center">
-                                <div class="select-wrapper ">
-                                    <select> 
+    </header>
+    <main>
+        <section class="screen-one">
+            <div class="main ">
+                <div class="main-inner ">
+                    <div class="reservation-form ">
+                        <div class="reservation-form-center">
+                            <form>
+                                <label>Date de départ</label>
+                                <input type="date " name="calendar ">
+                            </form>
+                            <form>
+                                <label class="label-center">Heure de rendez-vous</label>
+                                <div class="select-center">
+                                    <div class="select-wrapper ">
+                                        <select> 
                                            <option value="HH " selected=" ">HH</option>
                                            <option value="00 ">00</option>
                                            <option value="01 ">01</option>
@@ -77,9 +77,9 @@
                                            <option value="05 ">05</option>
                                            <option value="06 ">06</option>
                                         </select>
-                                </div>
-                                <div class="select-wrapper ">
-                                    <select> 
+                                    </div>
+                                    <div class="select-wrapper ">
+                                        <select> 
                                           <option value="MM " selected=" ">MM</option>
                                           <option value="00 ">00</option>
                                           <option value="30 ">10</option>
@@ -88,18 +88,18 @@
                                           <option value="0200 ">40</option>
                                           <option value="0230 ">50</option>
                                         </select>
+                                    </div>
                                 </div>
-                            </div>
-                        </form>
-                        <form>
-                            <label>Date de retour</label>
-                            <input type="date " name="calendar ">
-                        </form>
-                        <form>
-                            <label class="label-center">Heure de retour</label>
-                            <div class="select-center">
-                                <div class="select-wrapper ">
-                                    <select> 
+                            </form>
+                            <form>
+                                <label>Date de retour</label>
+                                <input type="date " name="calendar ">
+                            </form>
+                            <form>
+                                <label class="label-center">Heure de retour</label>
+                                <div class="select-center">
+                                    <div class="select-wrapper ">
+                                        <select> 
                                           <option value="HH " selected=" ">HH</option>
                                           <option value="00 ">00</option>
                                           <option value="01 ">01</option>
@@ -109,9 +109,9 @@
                                           <option value="05 ">05</option>
                                           <option value="06 ">06</option>
                                         </select>
-                                </div>
-                                <div class="select-wrapper ">
-                                    <select> 
+                                    </div>
+                                    <div class="select-wrapper ">
+                                        <select> 
                                           <option value="MM " selected=" ">MM</option>
                                           <option value="00 ">00</option>
                                           <option value="30 ">10</option>
@@ -120,204 +120,209 @@
                                           <option value="0200 ">40</option>
                                           <option value="0230 ">50</option>
                                         </select>
+                                    </div>
                                 </div>
-                            </div>
-                        </form>
-                    </div>
-                    <div class="reservation-button ">
-                        <button type="button ">Réservation</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="section-one-footer ">
-            <div class="section-one-footer-center ">
-                <img src="Images/car-icon.png">
-                <p>Park &amp; Fly</p>
-                <img src="Images/fly-icon.png">
-            </div>
-        </div>
-    </section>
-    <section class="screen-two ">
-        <div class="main-content ">
-            <div class="main-content-inner ">
-                <h1>Bienvenue sur GVA Park</h1>
-                <div class="text ">
-                    <p>VA Park vous propose des solutions sécurisées pour garer votre véhicule lors de vos voyages au départ de l’Aéroport International de Genève.</p>
-
-                    <p>Voyagez en toute sérénité grâce à notre service de parking avec voiturier basé à l’Aéroport International de Genève. Vous parquez votre voiture devant nos locaux à World Trade Center I situe juste à 50 mètres de l’aéroport. Ensuite
-                        nous allons prendre votre véhicule et le garer dans un parking sécurisé sous notre surveillance, pour toute la durée de votre voyage.</p>
-
-                    <p>Notre site internet vous permet de réserver notre service 7jours/7, en toute simplicité. Sous notre responsabilité, votre véhicule est assuré, pour garantir votre tranquillité.</p>
-
-                    <p>Pour bénéficier de notre service, il vous faudra effectuer une réservation en ligne au plus tard 24 heures avant votre départ !</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="screen-three ">
-        <div class="upper-main-content ">
-            <div class="main-content-inner ">
-                <h1>Pourquoi choisir GVA Park</h1>
-            </div>
-        </div>
-        <div class="lower-main-content ">
-            <div class="main-content-inner ">
-                <div class="content ">
-                    <div>
-                        <img src="Images/forma-1.png ">
-                        <h2>Sécurité</h2>
-                        <p>Nous garons votre véhicule dans un parking sécurisé, sous notre garantie, pour toute la durée de votre voyage.</p>
-                    </div>
-                    <div>
-                        <img src="Images/forma-2.png ">
-                        <h2>Simplicité</h2>
-                        <p>Notre site internet vous permet de réserver nos services en quelques clics.</p>
-                    </div>
-                    <div>
-                        <img src="Images/forma-3.png ">
-                        <h2>Rapidité</h2>
-                        <p>Vous parquez votre voiture devant nos locaux à World Trade Center I situe juste à 50 mètres de l’aéroport. </p>
-                    </div>
-                    <div>
-                        <img src="Images/forma-4.png ">
-                        <h2>Un service reconnu</h2>
-                        <p>GVA Park s’appuie sur son expérience pour vous offrir un service irréprochable.</p>
+                            </form>
+                        </div>
+                        <div class="reservation-button ">
+                            <button type="button ">Réservation</button>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <section class="screen-four">
-        <div class="main-content ">
-            <div class="main-content-inner ">
-                <h1>GVA Park VS autres</h1>
-                <div class="table ">
-                    <table>
-                        <thead>
-                            <tr>
-                                <th scope="col1"></th>
-                                <th scope="col2">1ER Jour</th>
-                                <th scope="col3">JOUR SUP.</th>
-                                <th scope="col4">PRISE EN CHARGE</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td class="title" scope="row">GVA PARK</td>
-                                <td data-label="1ER Jour">CHF 10.-</td>
-                                <td data-label="JOUR SUP.">CHF 10.-</td>
-                                <td data-label="PRISE EN CHARGE">CHF 20.-</td>
-                            </tr>
-                            <tr>
-                                <td class="title" scope="row">PARKING FRIEND</td>
-                                <td data-label="1ER Jour">CHF 14.-</td>
-                                <td data-label="JOUR SUP.">CHF 14.-</td>
-                                <td data-label="PRISE EN CHARGE">CHF 30.-</td>
-                            </tr>
-                            <tr>
-                                <td class="title" scope="row">PARK MY CAR </td>
-                                <td data-label="1ER Jour">CHF 15.-</td>
-                                <td data-label="JOUR SUP.">CHF 10.- (A partir du 6 ème jour)</td>
-                                <td data-label="PRISE EN CHARGE">CHF 25.-</td>
-                            </tr>
-                            <tr>
-                                <td class="title" scope="row">PARKING AÉROPORT P1 (LONGUE DURÉE)</td>
-                                <td data-label="1ER Jour">CHF 32.- </td>
-                                <td data-label="JOUR SUP.">CHF 20.- À 26.-</td>
-                                <td data-label="PRISE EN CHARGE">--</td>
-                            </tr>
-                            <tr>
-                                <td class="title" scope="row">RESAPARK P1 (LONGUE DURÉE) </td>
-                                <td data-label="1ER Jour">CHF 32.-</td>
-                                <td data-label="JOUR SUP.">CHF 20.- À 26.-</td>
-                                <td data-label="PRISE EN CHARGE">CHF 30.-</td>
-                            </tr>
-                            <tr>
-                                <td class="title" scope="row">EUROPE CAR VALET SERVICE </td>
-                                <td data-label="1ER Jour">CHF 33.- (+9% TAX) </td>
-                                <td data-label="JOUR SUP.">2 JOURS CHF 56.- / 5 JOURS CHF 133.- </td>
-                                <td data-label="PRISE EN CHARGE">CHF 30.- </td>
-                            </tr>
-                            <tr>
-                                <td class="title" scope="row">AIRPORT PARKING AÉROPORT P20 (LONGUE DURÉE) </td>
-                                <td data-label="1ER Jour">CHF 32.- </td>
-                                <td data-label="JOUR SUP.">CHF 20.- À 26.- </td>
-                                <td data-label="PRISE EN CHARGE">--</td>
-                            </tr>
-                        </tbody>
-                    </table>
+            <div class="section-one-footer ">
+                <div class="section-one-footer-center ">
+                    <img src="Images/car-icon.png">
+                    <p>Park &amp; Fly</p>
+                    <img src="Images/fly-icon.png">
                 </div>
             </div>
-        </div>
+        </section>
+        <section class="screen-two ">
+            <div class="main-content ">
+                <div class="main-content-inner ">
+                    <h1>Bienvenue sur GVA Park</h1>
+                    <div class="text ">
+                        <p>VA Park vous propose des solutions sécurisées pour garer votre véhicule lors de vos voyages au départ de l’Aéroport International de Genève.</p>
 
-    </section>
-    <section class="screen-five ">
-        <div class="main-content ">
-            <div class="main-content-inner ">
-                <div class="item-center">
-                    <div>
-                        <h3>Effectuer votre réservation</h3>
-                        <input class="toggle" id="item-1" type="checkbox">
-                        <label for="item-1">Comment bénéficier de notre service ?</label>
-                        <div>Pour garantir votre sérénité, un état des lieux sera effectué en votre présence et soumis à votre validation.</div>
-                        <input class="toggle" id="item-2" type="checkbox">
-                        <label for="item-2">Quels sont les documents demandés lors de la réservation ?</label>
-                        <div>Pour garantir votre sérénité, un état des lieux sera effectué en votre présence et soumis à votre validation..</div>
-                        <input class="toggle" id="item-3" type="checkbox">
-                        <label for="item-3">Pouvez-vous prendre en charge plusieurs véhicules ?</label>
-                        <div>Pour garantir votre sérénité, un état des lieux sera effectué en votre présence et soumis à votre validation.</div>
-                        <input class="toggle" id="item-4" type="checkbox">
-                        <label for="item-4">Acceptez-vous tout type de véhicule ?</label>
-                        <div>Pour garantir votre sérénité, un état des lieux sera effectué en votre présence et soumis à votre validation.</div>
-                    </div>
-                    <div>
-                        <h3>Déposer votre véhicule</h3>
-                        <input class="toggle" id="item-5" type="checkbox">
-                        <label for="item-5">Où dois-je déposer mon véhicule ?</label>
-                        <div>Pour garantir votre sérénité, un état des lieux sera effectué en votre présence et soumis à votre validation.</div>
-                        <input class="toggle" id="item-6" type="checkbox">
-                        <label for="item-6">Quels documents me seront demandés ?</label>
-                        <div>Pour garantir votre sérénité, un état des lieux sera effectué en votre présence et soumis à votre validation.</div>
-                        <input class="toggle" id="item-7" type="checkbox">
-                        <label for="item-7">Une autre personne peut-elle déposer ou récupérer mon véhicule ?</label>
-                        <div>Pour garantir votre sérénité, un état des lieux sera effectué en votre présence et soumis à votre validation.</div>
-                        <input class="toggle" id="item-8" type="checkbox">
-                        <label for="item-8">Un état des lieux sera-t-il effectué ?</label>
-                        <div>Pour garantir votre sérénité, un état des lieux sera effectué en votre présence et soumis à votre validation. </div>
-                    </div>
-                    <div>
-                        <h3>Récupérer votre véhicule :</h3>
-                        <input class="toggle" id="item-9" type="checkbox">
-                        <label for="item-9">Dois-je appeler pour vous prévenir de mon arrivée ?</label>
-                        <div>Pour garantir votre sérénité, un état des lieux sera effectué en votre présence et soumis à votre validation.</div>
-                        <input class="toggle" id="item-10" type="checkbox">
-                        <label for="item-10">Où a lieu la reprise de votre véhicule ?</label>
-                        <div>Pour garantir votre sérénité, un état des lieux sera effectué en votre présence et soumis à votre validation.</div>
-                        <input class="toggle" id="item-11" type="checkbox">
-                        <label for="item-11">Mon vol est en retard, que dois-je faire ?</label>
-                        <div>Pour garantir votre sérénité, un état des lieux sera effectué en votre présence et soumis à votre validation.</div>
-                        <input class="toggle" id="item-12" type="checkbox">
-                        <label for="item-12">Que se passe-t-il si mon véhicule est</label>
-                        <div>Pour garantir votre sérénité, un état des lieux sera effectué en votre présence et soumis à votre validation.</div>
+                        <p>Voyagez en toute sérénité grâce à notre service de parking avec voiturier basé à l’Aéroport International de Genève. Vous parquez votre voiture devant nos locaux à World Trade Center I situe juste à 50 mètres de l’aéroport. Ensuite
+                            nous allons prendre votre véhicule et le garer dans un parking sécurisé sous notre surveillance, pour toute la durée de votre voyage.</p>
+
+                        <p>Notre site internet vous permet de réserver notre service 7jours/7, en toute simplicité. Sous notre responsabilité, votre véhicule est assuré, pour garantir votre tranquillité.</p>
+
+                        <p>Pour bénéficier de notre service, il vous faudra effectuer une réservation en ligne au plus tard 24 heures avant votre départ !</p>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
+        <section class="screen-three ">
+            <div class="upper-main-content ">
+                <div class="main-content-inner ">
+                    <h1>Pourquoi choisir GVA Park</h1>
+                </div>
+            </div>
+            <div class="lower-main-content ">
+                <div class="main-content-inner ">
+                    <div class="content ">
+                        <div>
+                            <figure>
+                                <img src="Images/forma-1.png ">
+                            </figure>
+                            <h2>Sécurité</h2>
+                            <p>Nous garons votre véhicule dans un parking sécurisé, sous notre garantie, pour toute la durée de votre voyage.</p>
+                        </div>
+                        <div>
+                            <figure>
+                                <img src="Images/forma-2.png ">
+                            </figure>
+                            <h2>Simplicité</h2>
+                            <p>Notre site internet vous permet de réserver nos services en quelques clics.</p>
+                        </div>
+                        <div>
+                            <figure>
+                                <img src="Images/forma-3.png ">
+                            </figure>
+                            <h2>Rapidité</h2>
+                            <p>Vous parquez votre voiture devant nos locaux à World Trade Center I situe juste à 50 mètres de l’aéroport. </p>
+                        </div>
+                        <div>
+                            <figure>
+                                <img src="Images/forma-4.png ">
+                            </figure>
+                            <h2>Un service reconnu</h2>
+                            <p>GVA Park s’appuie sur son expérience pour vous offrir un service irréprochable.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="screen-four">
+            <div class="main-content ">
+                <div class="main-content-inner ">
+                    <h1>GVA Park VS autres</h1>
+                    <div class="table ">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th scope="col1"></th>
+                                    <th scope="col2">1ER Jour</th>
+                                    <th scope="col3">JOUR SUP.</th>
+                                    <th scope="col4">PRISE EN CHARGE</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="title" scope="row">GVA PARK</td>
+                                    <td data-label="1ER Jour">CHF 10.-</td>
+                                    <td data-label="JOUR SUP.">CHF 10.-</td>
+                                    <td data-label="PRISE EN CHARGE">CHF 20.-</td>
+                                </tr>
+                                <tr>
+                                    <td class="title" scope="row">PARKING FRIEND</td>
+                                    <td data-label="1ER Jour">CHF 14.-</td>
+                                    <td data-label="JOUR SUP.">CHF 14.-</td>
+                                    <td data-label="PRISE EN CHARGE">CHF 30.-</td>
+                                </tr>
+                                <tr>
+                                    <td class="title" scope="row">PARK MY CAR </td>
+                                    <td data-label="1ER Jour">CHF 15.-</td>
+                                    <td data-label="JOUR SUP.">CHF 10.- (A partir du 6 ème jour)</td>
+                                    <td data-label="PRISE EN CHARGE">CHF 25.-</td>
+                                </tr>
+                                <tr>
+                                    <td class="title" scope="row">PARKING AÉROPORT P1 (LONGUE DURÉE)</td>
+                                    <td data-label="1ER Jour">CHF 32.- </td>
+                                    <td data-label="JOUR SUP.">CHF 20.- À 26.-</td>
+                                    <td data-label="PRISE EN CHARGE">--</td>
+                                </tr>
+                                <tr>
+                                    <td class="title" scope="row">RESAPARK P1 (LONGUE DURÉE) </td>
+                                    <td data-label="1ER Jour">CHF 32.-</td>
+                                    <td data-label="JOUR SUP.">CHF 20.- À 26.-</td>
+                                    <td data-label="PRISE EN CHARGE">CHF 30.-</td>
+                                </tr>
+                                <tr>
+                                    <td class="title" scope="row">EUROPE CAR VALET SERVICE </td>
+                                    <td data-label="1ER Jour">CHF 33.- (+9% TAX) </td>
+                                    <td data-label="JOUR SUP.">2 JOURS CHF 56.- / 5 JOURS CHF 133.- </td>
+                                    <td data-label="PRISE EN CHARGE">CHF 30.- </td>
+                                </tr>
+                                <tr>
+                                    <td class="title" scope="row">AIRPORT PARKING AÉROPORT P20 (LONGUE DURÉE) </td>
+                                    <td data-label="1ER Jour">CHF 32.- </td>
+                                    <td data-label="JOUR SUP.">CHF 20.- À 26.- </td>
+                                    <td data-label="PRISE EN CHARGE">--</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
 
-    </section>
+        </section>
+        <section class="screen-five ">
+            <div class="main-content ">
+                <div class="main-content-inner ">
+                    <div class="item-center">
+                        <div>
+                            <h3>Effectuer votre réservation</h3>
+                            <div class="header">Comment bénéficier de notre service ?</div>
+                            <div class="content">Pour garantir votre sérénité, un état des lieux sera effectué en votre présence et soumis à votre validation.</div>
+                            <div class="header">Quels sont les documents demandés lors de la réservation ?</div>
+                            <div class="content">Pour garantir votre sérénité, un état des lieux sera effectué en votre présence et soumis à votre validation..</div>
+                            <div class="header">Pouvez-vous prendre en charge plusieurs véhicules ?</div>
+                            <div class="content">Pour garantir votre sérénité, un état des lieux sera effectué en votre présence et soumis à votre validation.</div>
+                            <div class="header">Acceptez-vous tout type de véhicule ?</div>
+                            <div class="content">Pour garantir votre sérénité, un état des lieux sera effectué en votre présence et soumis à votre validation.</div>
+                        </div>
+                        <div>
+                            <h3>Déposer votre véhicule</h3>
+                            <input class="toggle" id="item-5" type="checkbox">
+                            <label for="item-5">Où dois-je déposer mon véhicule ?</label>
+                            <div>Pour garantir votre sérénité, un état des lieux sera effectué en votre présence et soumis à votre validation.</div>
+                            <input class="toggle" id="item-6" type="checkbox">
+                            <label for="item-6">Quels documents me seront demandés ?</label>
+                            <div>Pour garantir votre sérénité, un état des lieux sera effectué en votre présence et soumis à votre validation.</div>
+                            <input class="toggle" id="item-7" type="checkbox">
+                            <label for="item-7">Une autre personne peut-elle déposer ou récupérer mon véhicule ?</label>
+                            <div>Pour garantir votre sérénité, un état des lieux sera effectué en votre présence et soumis à votre validation.</div>
+                            <input class="toggle" id="item-8" type="checkbox">
+                            <label for="item-8">Un état des lieux sera-t-il effectué ?</label>
+                            <div>Pour garantir votre sérénité, un état des lieux sera effectué en votre présence et soumis à votre validation. </div>
+                        </div>
+                        <div>
+                            <h3>Récupérer votre véhicule :</h3>
+                            <input class="toggle" id="item-9" type="checkbox">
+                            <label for="item-9">Dois-je appeler pour vous prévenir de mon arrivée ?</label>
+                            <div>Pour garantir votre sérénité, un état des lieux sera effectué en votre présence et soumis à votre validation.</div>
+                            <input class="toggle" id="item-10" type="checkbox">
+                            <label for="item-10">Où a lieu la reprise de votre véhicule ?</label>
+                            <div>Pour garantir votre sérénité, un état des lieux sera effectué en votre présence et soumis à votre validation.</div>
+                            <input class="toggle" id="item-11" type="checkbox">
+                            <label for="item-11">Mon vol est en retard, que dois-je faire ?</label>
+                            <div>Pour garantir votre sérénité, un état des lieux sera effectué en votre présence et soumis à votre validation.</div>
+                            <input class="toggle" id="item-12" type="checkbox">
+                            <label for="item-12">Que se passe-t-il si mon véhicule est</label>
+                            <div>Pour garantir votre sérénité, un état des lieux sera effectué en votre présence et soumis à votre validation.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
     <footer>
         <div class="footer-inner ">
             <div class="contact ">
                 <p>022 510 14 40</p>
             </div>
             <div class="image-center">
-                <div class="clients ">
+                <figure class="clients ">
                     <img src="Images/widget.png ">
-                </div>
-                <div class="payments ">
+                </figure>
+                <figure class="payments ">
                     <img src="Images/group-icons.png ">
-                </div>
+                </figure>
             </div>
             <div class="cr-text ">
                 <p>© COPYRIGHT 2017 GVAPARK.CH. TOUS DROITS SONT RÉSERVÉ CRÉATION DU SITE INTERNET – BGCS</p>

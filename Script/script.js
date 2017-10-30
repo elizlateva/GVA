@@ -1,15 +1,22 @@
 jQuery(document).ready(function() {
     $('.toggle-nav').click(function(e) {
         $(this).toggleClass('active');
-        $('.menu ul').slideToggle();
+        $('nav.menu ul').slideToggle();
         e.preventDefault();
     });
+
+});
+
+$(document).ready(function() {
+    $("button.btn").click(function() {
+        $(".select-lang ul").slideToggle();
+    })
 });
 
 
 $(document).ready(function() {
     if ($(window).width() < 768) {
-        $('.menu').css({ "background": "#333" });
+        $('nav.menu').css({ "background": "#333" });
     } else {}
 });
 
@@ -18,12 +25,12 @@ $(function() {
     $.scrollify({
         section: "section",
         sectionName: false,
-        interstitialSection: "nav,footer",
+        interstitialSection: "header,footer",
         before: function(i, sections) {
             if (i < 2) {
-                $("nav").css({ "background": "rgba(0,0,0,0.55)" });
+                $("header").css({ "background": "rgba(0,0,0,0.55)" });
             } else {
-                $("nav").css({ "background": "#333" });
+                $("header").css({ "background": "#333" });
                 $.scrollify.setOptions({ offset: -126 })
             }
         }
