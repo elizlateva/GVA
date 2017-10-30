@@ -5,22 +5,31 @@ jQuery(document).ready(function() {
         e.preventDefault();
     });
 
-});
-
-$(document).ready(function() {
     $("button.btn").click(function() {
         $(".select-lang ul").slideToggle();
     })
-});
 
+    function close_accordion_section() {
+        $('.accordion .accordion-section-title').removeClass('active');
+        $('.accordion .accordion-section-content.open').slideUp(300).removeClass('open');
+    }
 
-$(document).ready(function() {
+    $('.accordion-section-title').click(function(e) {
+
+        if ($(e.target).is('.active')) {
+            close_accordion_section();
+        } else {
+            close_accordion_section();
+            // Add active class to section title
+            $(this).addClass('active');
+            // Open up the hidden content panel
+            $(this).next().slideDown(300).addClass('open');
+        }
+    });
+
     if ($(window).width() < 768) {
         $('nav.menu').css({ "background": "#333" });
     } else {}
-});
-
-$(function() {
 
     $.scrollify({
         section: "section",

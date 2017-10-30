@@ -381,11 +381,7 @@ h3 {
     margin: 0 auto;
 }
 
-.toggle {
-    display: none;
-}
-
-.toggle+label {
+.accordion-section-title {
     cursor: pointer;
     display: block;
     font-weight: bold;
@@ -394,7 +390,7 @@ h3 {
     word-break: break-all;
 }
 
-.toggle+label+div {
+.accordion-section-content {
     display: none;
     font-size: 13px;
     word-break: break-all;
@@ -402,25 +398,21 @@ h3 {
     width: 100%;
 }
 
-.toggle:checked+label+div {
-    display: block;
-}
-
-.toggle+label:before {
+.accordion-section-title::before {
     content: url("../Images/arrow-down.png");
     display: inline;
     vertical-align: -webkit-baseline-middle;
     margin-right: 10px;
 }
 
-.toggle:checked+label:before {
+.accordion-section-title.active::before {
     content: url("../Images/arrow-up.png");
     display: inline;
     vertical-align: -webkit-baseline-middle;
     margin-right: 10px;
 }
 
-.toggle:active+label:active {
+.active {
     color: #bf1e2d;
 }
 
