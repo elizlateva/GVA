@@ -124,15 +124,12 @@
     h3 {
         font-size: 23px;
     }
-    .item-center div {
+    .accordion {
         width: 30%;
-        display: inline-block;
+        float: left;
         margin: 0 15px;
     }
-    .item-center div {
-        float: left;
-    }
-    .item-center div:last-child {
+    .accordion:last-child {
         float: right;
     }
     .item-center:after {

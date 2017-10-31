@@ -363,7 +363,7 @@ table td:before {
 
 /* SCREEN-FIVE */
 
-.item-center div {
+.item-center.accordion {
     width: 100%;
     margin: 0 auto;
 }
@@ -376,7 +376,7 @@ h3 {
     text-align: center;
 }
 
-.item-center div {
+.item-center.accordion {
     width: 300px;
     margin: 0 auto;
 }
