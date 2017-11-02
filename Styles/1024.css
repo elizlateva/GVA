@@ -44,9 +44,9 @@
     .select-wrapper select {
         margin-left: 6%;
     }
-    section header {
+    /* section header {
         display: inline-block;
-    }
+    } */
     /* SCREEN-TWO */
     .main-content-inner {
         width: 980px;
